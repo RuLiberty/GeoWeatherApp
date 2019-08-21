@@ -60,6 +60,10 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
         textCity.setText(String.valueOf(""));
     }
 
+    /*
+    Работа с
+    JSON и API
+     */
 
     private void requestWeather(float mlongitude, float mlatitude) {
             requestRetrofit(mlongitude, mlatitude);
@@ -107,7 +111,7 @@ public class MainActivity extends AppCompatActivity implements ActivityCompat.On
 
     /*
     Работа с
-    Гео локациями
+    Гео локацией
      */
 
     public void getLocation(){
